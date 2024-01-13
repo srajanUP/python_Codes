@@ -9,4 +9,7 @@ print(name[0:5])
 
 print(len(name))
 
-name.length()
+
+print(name.lstrip("sa"))
+
+

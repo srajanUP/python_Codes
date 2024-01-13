@@ -30,3 +30,34 @@ print(ord("a"))
 # to get the ASCII cahracter from the number
 print(chr(97))
 
+
+#creating lists
+l=list("hello")
+print(l)
+
+
+#creating list from keyboard input
+l1=list(input("enter the values : "))
+print(l1)
+
+#creating list from tuples
+t=("a","b","c","d","e")
+l2=list(t)
+print(l2)
+
+#traversing lsit
+for i in l2:
+    print(i)
+
+
+# joining lists
+print(l1+l2)
+
+
+#replicating lists
+l3=l2*2
+print(l3)
+
+#reversing the list
+l4=[1,5,6,4,7,8,9]
+print(l4.reverse())
