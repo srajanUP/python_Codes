@@ -5,8 +5,6 @@ print(name[-1])
 print(len(name))
 
 
-
-
 # traversing the string
 name1="srajan upadhyay"
 for i in name1:
@@ -61,3 +59,4 @@ print(l3)
 #reversing the list
 l4=[1,5,6,4,7,8,9]
 print(l4.reverse())
+print(max(l4))
